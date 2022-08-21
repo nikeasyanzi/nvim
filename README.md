@@ -25,3 +25,4 @@ Now open Neovim and run `:PackerSync`
 nvim +PackerSync
 ```
 
+# nvim
