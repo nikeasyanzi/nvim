@@ -10,10 +10,7 @@ packer.startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- plugins go here
-  use {
-    'svrana/neosolarized.nvim',
-    requires = { 'tjdevries/colorbuddy.nvim' }
-  }
+  use "EdenEast/nightfox.nvim" -- A highly customizable theme for vim and neovim with support for lsp, treesitter and a variety of plugins.
   use 'nvim-lualine/lualine.nvim' -- Statusline
   use 'nvim-lua/plenary.nvim' -- Common utilities
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
@@ -48,7 +45,4 @@ packer.startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim' -- For git blame & browse
 
-  -- rust stuff
-  use 'simrat39/rust-tools.nvim'
-  use 'mfussenegger/nvim-dap'
 end)
